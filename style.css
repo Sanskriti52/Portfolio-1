@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+  background-color: lightgrey;
+  width: 434px;
+  height: 100vh;
+  font-family: 'Oswald', sans-serif;
+}
+.sidebar nav{
+  padding: 45px;
+}
+.sidebar nav li{
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+  /*background-color: Yellow;*/
+   width: 90vw; 
+}
+.container{
+  display: flex;
+  
+}
+.infoContainer{
+   /* background-color: rgb(120, 65, 165); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 9px;
+    color: black;
+    background-color: burlywood;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 17px;
+}
+.btn:hover{
+    background-color: black;
+    color: burlywood;
+    transition: 0.3s;
+}
+.devpic{
+    height: 58vh;
+    
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Source Code Pro', monospace;
+}
+.contactform h1{
+    font-family: 'Oswald', sans-serif;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: brown;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    margin: 20px;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+.intro h2{
+    font-family: 'Oswald', sans-serif;
+    margin: 12px 12px;
+}
+
+.intro p{
+
+    font-family: 'Oswald', sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillitems{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 256px;
+    height: 6px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.hundred{
+    width: 265px;
+    background-color: blue;
+}
+
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.main .fa-solid fa-bars{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
